@@ -90,7 +90,7 @@ var Game=function(){
             missile.y+=_.invaderMissileSpeed;
             if(rectColl(missile.x,missile.y,_.missileWidth,_.missileHeight,_.ship.x,_.ship.y,_.ship.w,_.ship.h)){
                 _.completed=true;
-                alert("< GAME OVER >");
+                alert(" ~ GAME OVER ~ ");
             }
             drawRect(cc,missile.x,missile.y,_.missileWidth,_.missileHeight,invaderMissileColor);
         }
