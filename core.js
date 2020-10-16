@@ -1,6 +1,6 @@
 const clearColor="#121212";
-const shipMissileColor="#FC427B";
-const invaderMissileColor="#8854d0";
+const shipMissileColor="#ff6f7d";
+const invaderMissileColor="#b0f2b6";
 const can=document.getElementById("can");
 const cw=can.width;const ch=can.height;
 var leftkey=rightkey=false;
